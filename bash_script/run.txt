@@ -1,0 +1,27 @@
+#!/bin/bash
+
+echo "Hello all, running script"
+
+
+echo "Changin DIR"
+cd sub1
+
+echo "Creatin 3 DIR-s"
+mkdir 1 2 3
+
+echo "Creating 5 files"
+touch 01.txt 02.txt 03.txt 04.json 05.json
+
+echo "Creatin 3 DIR-s"
+mkdir 4 5 6
+
+echo "Displaying directory entity"
+ls -a
+
+echo "Renaming file 1"
+mv 04.json 01.json
+
+echo "Renaming file 2"
+mv 05.json 02.json
+
+echo "Script finished, Bye"
